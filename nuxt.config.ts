@@ -15,6 +15,9 @@ export default defineNuxtConfig({
 					content: 'nuxt 3, vue 3, tailwind, punkapi',
 				},
 			],
+			htmlAttrs: {
+				lang: 'en',
+			},
 		},
 	},
 	runtimeConfig: {
