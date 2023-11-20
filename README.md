@@ -2,7 +2,13 @@
 
 Look at the [DEMO](https://nuxt-3-tailwind-api.vercel.app/beers).
 
-![image](https://github.com/leomiranda/nuxt-3-tailwind-api/assets/32196/cfb22ce5-e085-4d2e-b101-33e7c56a03e5)
+*Beer Menu*
+
+![image]([https://github.com/leomiranda/nuxt-3-tailwind-api/assets/32196/cfb22ce5-e085-4d2e-b101-33e7c56a03e5](https://nuxt-3-tailwind-api.vercel.app/beers))
+
+*Beer Page*
+
+![image]([https://github.com/leomiranda/nuxt-3-tailwind-api/assets/32196/7cc34b47-c274-4db5-924d-1e76560f58b2](https://nuxt-3-tailwind-api.vercel.app/beers/48))
 
 
 ## Challenge
@@ -30,7 +36,7 @@ Challenge delivered: [Beer Menu](https://nuxt-3-tailwind-api.vercel.app/beers)
 Others:
 - [Beer Page](https://nuxt-3-tailwind-api.vercel.app/beers/48)
 - [Beer Menu API](https://nuxt-3-tailwind-api.vercel.app/api/beers)
-- [Beer Details API]([https://nuxt-3-tailwind-api.vercel.app/api/beers](https://nuxt-3-tailwind-api.vercel.app/api/beers/48))
+- [Beer Details API](https://nuxt-3-tailwind-api.vercel.app/api/beers/48)
 
 
 ### Google Lighthouse
@@ -53,7 +59,7 @@ Make sure to install the dependencies:
 pnpm install
 ```
 
-Clone the file `.env.example` and rename to `.nev`
+Clone the file `.env.example` and rename to `.env`.
 
 ## Development Server
 
