@@ -4,11 +4,13 @@ Look at the [DEMO](https://nuxt-3-tailwind-api.vercel.app/beers).
 
 *Beer Menu*
 
-![image]([https://github.com/leomiranda/nuxt-3-tailwind-api/assets/32196/cfb22ce5-e085-4d2e-b101-33e7c56a03e5](https://nuxt-3-tailwind-api.vercel.app/beers))
+![image](https://github.com/leomiranda/nuxt-3-tailwind-api/assets/32196/9e7730f9-7d64-4652-8809-66ec480408e6)
+
 
 *Beer Page*
 
-![image]([https://github.com/leomiranda/nuxt-3-tailwind-api/assets/32196/7cc34b47-c274-4db5-924d-1e76560f58b2](https://nuxt-3-tailwind-api.vercel.app/beers/48))
+![image](https://github.com/leomiranda/nuxt-3-tailwind-api/assets/32196/bf60a89d-b64f-4420-a63c-8b30d4c7dae1)
+
 
 
 ## Challenge
@@ -33,6 +35,7 @@ url: https://api.punkapi.com/v2/beers?brewed_after=11-2012
 ### Links
 
 Challenge delivered: [Beer Menu](https://nuxt-3-tailwind-api.vercel.app/beers)
+
 Others:
 - [Beer Page](https://nuxt-3-tailwind-api.vercel.app/beers/48)
 - [Beer Menu API](https://nuxt-3-tailwind-api.vercel.app/api/beers)
