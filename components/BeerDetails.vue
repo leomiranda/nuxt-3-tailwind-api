@@ -4,7 +4,7 @@
 			<img :src="beer.image_url" :alt="beer.name" class="w-full my-4 h-64 object-contain" />
 			<div class="absolute left-0 top-0 h-16 w-16" v-if="beer.has_dry_hop">
 				<div
-					class="absolute transform -rotate-45 bg-gray-400 text-center text-white font-semibold text-sm py-1 left-[-34px] top-[32px] w-[170px]"
+					class="absolute transform -rotate-45 bg-gray-600 text-center text-white font-semibold text-sm py-1 left-[-34px] top-[32px] w-[170px]"
 				>
 					Dry Hopped
 				</div>
@@ -23,33 +23,33 @@
 				{{ beer.name }}
 			</h2>
 			<p class="my-4 text-gray-800 font-semibold">{{ beer.tagline }}</p>
-			<div class="flex flex-col divide-y md:flex-row md:divide-y-0 md:gap-5 text-gray-400 my-4">
+			<div class="flex flex-col divide-y md:flex-row md:divide-y-0 md:gap-5 text-gray-600 my-4">
 				<p v-show="beer.abv" class="flex items-center justify-between gap-2">
-					<span class="text-gray-600 font-bold p-1 box-decoration-clone inline-block">{{
+					<span class="text-gray-800 font-bold p-1 box-decoration-clone inline-block">{{
 						beer.abv
 					}}</span>
 					<span>ABV</span>
 				</p>
 				<p v-show="beer.ibu" class="flex items-center justify-between gap-2">
-					<span class="text-gray-600 font-bold p-1 box-decoration-clone inline-block">{{
+					<span class="text-gray-800 font-bold p-1 box-decoration-clone inline-block">{{
 						beer.ibu
 					}}</span>
 					<span>IBU</span>
 				</p>
 				<p v-show="beer.ebc" class="flex items-center justify-between gap-2">
-					<span class="text-gray-600 font-bold p-1 box-decoration-clone inline-block">{{
+					<span class="text-gray-800 font-bold p-1 box-decoration-clone inline-block">{{
 						beer.ebc
 					}}</span>
 					<span>EBC</span>
 				</p>
 				<p v-show="beer.srm" class="flex items-center justify-between gap-2">
-					<span class="text-gray-600 font-bold p-1 box-decoration-clone inline-block">{{
+					<span class="text-gray-800 font-bold p-1 box-decoration-clone inline-block">{{
 						beer.srm
 					}}</span>
 					<span>SRM</span>
 				</p>
 				<p v-show="beer.ph" class="flex items-center justify-between gap-2">
-					<span class="text-gray-600 font-bold p-1 box-decoration-clone inline-block">{{
+					<span class="text-gray-800 font-bold p-1 box-decoration-clone inline-block">{{
 						beer.ph
 					}}</span>
 					<span>PH</span>
